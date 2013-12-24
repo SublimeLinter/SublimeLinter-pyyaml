@@ -19,13 +19,17 @@ class Pyyaml(PythonLinter):
 
     syntax = 'yaml'
     cmd = None
-    executable = None
     regex = r'^:(?P<line>\d+):(?P<col>\d+): (?P<message>.+)'
     line_col_base = (0, 0)  # the lines and columns are 0-based
     module = 'yaml'
 
     def check(self, code, filename):
-        """Call directly the yaml module, and handles the exception. Return str."""
+        """
+        Call directly the yaml module, and handles the exception. Return str.
+
+        Very similar to the SublimeLinter-json linter, except yaml is not in the python core library.
+
+        """
         yaml = self.module
 
         try:

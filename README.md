@@ -27,7 +27,7 @@ To install via Package Control, do the following:
 
 1. When the plugin list appears, type `pyyaml`. Among the entries you should see `SublimeLinter-pyyaml`. If that entry is not highlighted, use the keyboard or mouse to select it.
 
-1. When the module is installed and you open a “YAML” file, you should see a message stating ``SublimeLinter: pyyaml enabled: <builtin>`` or similar in the console. The message should be similar to ``SublimeLinter: yaml imported <module 'yaml' from '/usr/local/lib/python3.3/dist-packages/yaml/__init__.py'>`` if debug mode is on.
+1. When the module is installed and you open a “YAML” file, you should see a message stating ``SublimeLinter: pyyaml activated: <builtin>`` or similar in the console. The message should be similar to ``SublimeLinter: yaml imported <module 'yaml' from '/usr/local/lib/python3.3/dist-packages/yaml/__init__.py'>`` if debug mode is on.
 
 1. If you see ``SublimeLinter: WARNING: import of yaml module in pyyaml failed`` instead, try running ``import yaml`` in the SublimeText console. If it fails, the module could not be located, please see [Troubleshooting](https://github.com/SublimeLinter/SublimeLinter.github.io/wiki/Troubleshooting), or use the [SublimeLinter google group](https://groups.google.com/forum/#!forum/sublimelinter) to report installation and configuration problems.
 
