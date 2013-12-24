@@ -15,6 +15,8 @@ Before using this plugin, you must ensure that `pyyaml` is installed for **Pytho
    ```bash
    # X is the minor version of python 3 you installed pip with.
    [sudo] pip-3.X install pyyaml
+   # or on Windows:
+   C:\Python3X\Scripts\pip.exe install pyyaml
    ```
 
 For Windows, a PyYAML installer is also available from [PyYAML on Pypi](https://pypi.python.org/pypi/PyYAML). Make sure to use a Python 3.X version.
