@@ -7,4 +7,4 @@ This linter plugin for SublimeLinter provides an interface to pyyaml.
 Before this plugin will activate, you *must*
 follow the installation instructions here:
 
-https://github.com/NotSqrt/SublimeLinter-pyyaml
+https://github.com/SublimeLinter/SublimeLinter-pyyaml
