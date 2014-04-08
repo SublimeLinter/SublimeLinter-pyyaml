@@ -1,7 +1,7 @@
 SublimeLinter-pyyaml
 =========================
 
-[![Build Status](https://khancdn.eu/badges.php?service=https%3A%2F%2Ftravis-ci.org%2FSublimeLinter%2FSublimeLinter-pyyaml.png%3Fbranch%3Dmaster)](https://travis-ci.org/SublimeLinter/SublimeLinter-pyyaml)
+[![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-pyyaml.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-pyyaml)
 
 This linter plugin for [SublimeLinter][docs] provides an interface to [pyyaml](http://pyyaml.org/). It will be used with files that have the “YAML” syntax.
 
