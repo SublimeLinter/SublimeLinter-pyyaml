@@ -24,6 +24,8 @@ Before using this plugin, you must ensure that `pyyaml` is installed for **Pytho
 
 For Windows, a PyYAML installer is also available from [PyYAML on Pypi](https://pypi.python.org/pypi/PyYAML). Make sure to use a Python 3.X version.
 
+For Debian(Linux), you can just use "apt-get install python3-yaml" (Since you might run into difficulties with pip3).
+
 Once `pyyaml` is installed, you can proceed to install the SublimeLinter-pyyaml plugin if it is not yet installed.
 
 ### Plugin installation
