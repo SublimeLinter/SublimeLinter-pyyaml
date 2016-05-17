@@ -14,7 +14,6 @@ from SublimeLinter.lint import PythonLinter, persist
 
 
 class Pyyaml(PythonLinter):
-
     """Provides an interface to pyyaml."""
 
     syntax = 'yaml'
