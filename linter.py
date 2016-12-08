@@ -32,9 +32,7 @@ class Pyyaml(PythonLinter):
         yaml = self.module
 
         try:
-            for x in yaml.safe_load_all(code):
-                # exhausting generator so all documents are checked
-                pass
+            list(yaml.parse(code, Loader=yaml.BaseLoader))
         except yaml.error.YAMLError as exc:
             if persist.settings.get('debug'):
                 persist.printf('{} - {} : {}'.format(self.name, type(exc), exc))
