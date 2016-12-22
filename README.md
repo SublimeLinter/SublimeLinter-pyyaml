@@ -9,7 +9,9 @@ This linter plugin for [SublimeLinter][docs] provides an interface to [pyyaml](h
 SublimeLinter 3 must be installed in order to use this plugin. If SublimeLinter 3 is not installed, please follow the instructions [here][installation].
 
 ### Linter installation
-Before using this plugin, you must ensure that `pyyaml` is installed for **Python 3** on your system, and **available for direct import in Sublime Text 3**. To install `pyyaml`, do the following:
+Before using this plugin, you must ensure that `pyyaml` is installed for **Python 3** on your system, and **available for direct import in Sublime Text 3**.
+
+Package Control should take care of the dependencies for you, but if not, you can do the following:
 
 1. Install [Python 3](http://python.org/download/) and [pip](http://www.pip-installer.org/en/latest/installing.html) for this Python 3 version.
 
