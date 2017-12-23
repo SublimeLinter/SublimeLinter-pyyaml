@@ -1,10 +1,9 @@
-SublimeLinter-pyyaml
+SublimeLinter-pyyaml DEPRECATED
 -------------------------------
-This linter plugin for SublimeLinter provides an interface to pyyaml.
 
-** IMPORTANT! **
+This package has been deprecated.
+SublimeLinter-contrib-yamllint provides a smarter and more modern approach to
+linting yaml, please upgrade to that.
+https://packagecontrol.io/packages/SublimeLinter-contrib-yamllint
 
-Before this plugin will activate, you *must*
-follow the installation instructions here:
-
-https://github.com/SublimeLinter/SublimeLinter-pyyaml
+SublimeLinter 4 will drop support for SublimeLinter-pyyaml.
